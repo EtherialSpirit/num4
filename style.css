@@ -1,0 +1,52 @@
+#board {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+.field {
+  width: 50px;
+  height: 50px;
+  float: left;
+  border: 1px solid white;
+  box-sizing: border-box;
+  line-height: 50px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.dark {
+  background: #000000;
+}
+
+.light {
+  background: #FFFFFF;
+}
+
+#close {
+  background: #0099ff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 14px;
+  font-size: 15px;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 5;
+}
+
+#dialog {
+  width: 250px;
+  height: 120px;
+  border: 1px solid;
+}
+
+#ok {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+}
+
+#closed {
+  position: relative;
+}
